@@ -1,132 +1,10 @@
 :host {
   height: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-}
-.column-layout {
-  display: flex;
   flex-direction: column;
-}
-.group {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
-  position: relative;
-  flex-grow: 1;
-  flex-basis: 0;
-}
-.row-layout {
-  display: flex;
-}
-.group_1 {
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  position: relative;
-}
-.group_2 {
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  gap: 24px;
-  right: 0;
-  position: relative;
-  padding: 24px;
-  min-width: 50px;
-  min-height: 50px;
-}
-.group_3 {
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  gap: 8px;
-  position: relative;
-}
-.group_4 {
-  background-color: var(--ig-surface-500);
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  gap: 24px;
-  overflow: auto;
-  position: relative;
-  padding: 24px;
-  min-height: 50px;
-  flex-grow: 1;
-  flex-basis: 0;
-}
-.group_5 {
-  border-color: var(--ig-gray-500);
-  border-width: 0px 0px 1px;
-  border-style: solid;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  gap: 24px;
-  position: relative;
-  padding: 0 0 24px;
-  min-width: 50px;
-  min-height: 50px;
-  flex-shrink: 0;
-}
-.group_6 {
-  justify-content: space-between;
-  align-items: center;
-  align-content: flex-start;
-  position: relative;
-  min-width: 50px;
-  min-height: 50px;
-  flex-shrink: 0;
-}
-.group_7 {
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  gap: 16px;
-  position: relative;
-}
-.group_8 {
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-  gap: 40px;
-  position: relative;
-  height: 100%;
-  min-width: 50px;
-  min-height: 50px;
-  max-height: 100%;
-}
-.group_9 {
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  gap: 16px;
-  overflow: auto;
-  position: relative;
-  min-width: 260px;
-  min-height: 50px;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.group_10 {
-  justify-content: space-between;
-  align-items: center;
-  align-content: flex-start;
-  gap: 8px;
-  position: relative;
-  min-width: 50px;
-  flex-shrink: 0;
-}
-.group_11 {
-  justify-content: flex-start;
-  align-items: baseline;
-  align-content: flex-start;
-  gap: 4px;
-  position: relative;
-  min-width: 50px;
 }
 .navbar {
   --igx-navbar-text-color: var(--ig-gray-700);
@@ -183,6 +61,109 @@
 }
 .icon_1 {
   color: white;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  right: 0;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group_3 {
+  background-color: var(--ig-surface-500);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+  position: relative;
+  padding: 24px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.group_4 {
+  border-color: var(--ig-gray-500);
+  border-width: 0px 0px 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 0 0 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_5 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_6 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: auto;
+  position: relative;
+  min-width: 260px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.group_8 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  flex-shrink: 0;
+}
+.group_9 {
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+  min-width: 50px;
 }
 .input {
   height: max-content;
