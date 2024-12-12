@@ -1,85 +1,79 @@
-<div class="column-layout group">
-  <igx-navbar class="navbar">
-    <igx-navbar-title class="navbar-content">
-      <h6 class="h6">
-        Reporting
-      </h6>
-    </igx-navbar-title>
+<igx-navbar class="navbar">
+  <igx-navbar-title class="navbar-content">
+    <h6 class="h6">
+      Reporting
+    </h6>
+  </igx-navbar-title>
+  <div class="row-layout group">
     <div class="row-layout group_1">
+      <igx-input-group type="box" class="input">
+        <igx-prefix>
+          <igx-icon class="icon">
+            search
+          </igx-icon>
+        </igx-prefix>
+        <input type="text" placeholder="Search for something" igxInput />
+      </igx-input-group>
+      <img src="/assets/Teal_Notifications_Filled.svg" class="image" />
       <div class="row-layout group_2">
-        <igx-input-group type="box" class="input">
-          <igx-prefix>
-            <igx-icon class="icon">
-              search
-            </igx-icon>
-          </igx-prefix>
-          <input type="text" placeholder="Search for something" igxInput />
-        </igx-input-group>
-        <img src="/assets/Teal_Notifications_Filled.svg" class="image" />
-        <div class="row-layout group_3">
-          <igx-avatar src="/assets/Avatar13.png" shape="circle" class="avatar"></igx-avatar>
-          <div class="column-layout group_1">
-            <p class="ig-typography__body-2 text">
-              Swetha Ravindra
-            </p>
-            <p class="ig-typography__overline text">
-              Area Manager
-            </p>
-          </div>
+        <igx-avatar src="/assets/Avatar13.png" shape="circle" class="avatar"></igx-avatar>
+        <div class="column-layout group">
+          <p class="ig-typography__body-2 text">
+            Swetha Ravindra
+          </p>
+          <p class="ig-typography__overline text">
+            Area Manager
+          </p>
         </div>
       </div>
     </div>
-  </igx-navbar>
-  <div class="column-layout group_4">
-    <div class="column-layout group_5">
-      <div class="row-layout group_6">
-        <div class="row-layout group_7">
-          <igx-input-group type="box" class="input_1">
-            <igx-prefix>
-              <igx-icon class="icon">
-                search
-              </igx-icon>
-            </igx-prefix>
-            <input type="text" placeholder="Search reports" igxInput />
-          </igx-input-group>
-          <button igxButton="outlined" type="button" igxRipple class="button">
-            A - Z
-          </button>
-          <button igxButton="outlined" type="button" igxRipple class="button">
-            Status Active
-          </button>
-          <div class="row-layout group_8">
-            <button igxRipple igxIconButton="flat" class="icon-button">
-              <igx-icon class="icon_1">
-                dashboard
-              </igx-icon>
-            </button>
-            <button igxRipple igxIconButton="flat" class="icon-button_1">
-              <igx-icon class="icon_2">
-                list
-              </igx-icon>
-            </button>
-          </div>
-        </div>
-        <button igxButton="contained" type="button" igxRipple class="button_1">
-          <igx-icon class="icon_1">
-            add
+  </div>
+</igx-navbar>
+<div class="column-layout group_3">
+  <div class="row-layout group_4">
+    <div class="row-layout group_5">
+      <igx-input-group type="box" class="input_1">
+        <igx-prefix>
+          <igx-icon class="icon">
+            search
           </igx-icon>
-          <span>New Report</span>
+        </igx-prefix>
+        <input type="text" placeholder="Search reports" igxInput />
+      </igx-input-group>
+      <button igxButton="outlined" type="button" igxRipple class="button">
+        A - Z
+      </button>
+      <button igxButton="outlined" type="button" igxRipple class="button">
+        Status Active
+      </button>
+      <div class="row-layout group_6">
+        <button igxRipple igxIconButton="flat" class="icon-button">
+          <igx-icon class="icon_1">
+            dashboard
+          </igx-icon>
+        </button>
+        <button igxRipple igxIconButton="flat" class="icon-button_1">
+          <igx-icon class="icon_2">
+            list
+          </igx-icon>
         </button>
       </div>
     </div>
-    <div class="row-layout group_9">
-      <div class="column-layout group_10">
-        <div class="row-layout group_11">
-          <div class="row-layout group_12">
-            <p class="ig-typography__subtitle-2 text_1">
-              Chart Colors
-            </p>
-          </div>
-        </div>
-        <rv-reveal-view dashboard="Sales" [options]="dashboardOptions" class="reveal-dash-board"></rv-reveal-view>
+    <button igxButton="contained" type="button" igxRipple class="button_1">
+      <igx-icon class="icon_1">
+        add
+      </igx-icon>
+      <span>New Report</span>
+    </button>
+  </div>
+  <div class="column-layout group_7">
+    <div class="row-layout group_8">
+      <div class="row-layout group_9">
+        <p class="ig-typography__subtitle-2 text_1">
+          Chart Colors
+        </p>
       </div>
     </div>
+    <rv-reveal-view dashboard="Sales" [options]="dashboardOptions" class="reveal-dash-board"></rv-reveal-view>
   </div>
 </div>
