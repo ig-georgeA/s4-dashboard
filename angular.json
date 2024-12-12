@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"s4-labour1": {
+		"s4-labour-fixed": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
@@ -17,7 +17,7 @@
 				"build": {
 					"builder": "@angular-devkit/build-angular:application",
 					"options": {
-						"outputPath": "dist/s4-labour1",
+						"outputPath": "dist/s4-labour-fixed",
 						"index": "src/index.html",
 						"browser": "src/main.ts",
 						"polyfills": [
@@ -69,10 +69,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "s4-labour1:build:production"
+							"buildTarget": "s4-labour-fixed:build:production"
 						},
 						"development": {
-							"buildTarget": "s4-labour1:build:development"
+							"buildTarget": "s4-labour-fixed:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
@@ -80,7 +80,7 @@
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"buildTarget": "s4-labour1:build"
+						"buildTarget": "s4-labour-fixed:build"
 					}
 				},
 				"test": {
