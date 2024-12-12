@@ -1,0 +1,122 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.mini-nav {
+  background-color: var(--ig-secondary-500);
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 40px;
+  position: relative;
+  flex-shrink: 0;
+}
+.logo-and-top-menu-items {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 40px;
+  position: relative;
+  padding: 16px 0 0;
+}
+.top-menu-items {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+.menu-item-1 {
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  width: 100px;
+  height: 72px;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 100px;
+  max-height: 72px;
+}
+.menu-item-2 {
+  background-color: transparent;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  width: 100px;
+  height: 72px;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 100px;
+  max-height: 72px;
+}
+.bottom-menu-item {
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+  width: 100px;
+  height: 72px;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 100px;
+  max-height: 72px;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.logo {
+  object-fit: cover;
+  margin: 0 0 0 -5px;
+  width: 48px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 48px;
+  flex-shrink: 0;
+}
+.image {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 0;
+  max-width: 32px;
+  max-height: 32px;
+  flex-shrink: 0;
+}
+.text {
+  text-align: center;
+  color: var(--ig-surface-500);
+  height: max-content;
+  min-width: min-content;
+}
+.view-container {
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+}

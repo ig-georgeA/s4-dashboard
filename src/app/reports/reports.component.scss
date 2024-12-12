@@ -1,0 +1,223 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  right: 0;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+.group_4 {
+  background-color: var(--ig-surface-500);
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+  position: relative;
+  padding: 24px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_5 {
+  border-color: var(--ig-gray-500);
+  border-width: 0px 0px 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 0 0 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_6 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.group_8 {
+  border-color: var(--ig-gray-500);
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 16px;
+}
+.group_9 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 40px;
+  position: relative;
+  height: 100%;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 100%;
+}
+.group_10 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: auto;
+  position: relative;
+  min-width: 260px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_11 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+}
+.group_12 {
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+  min-width: 50px;
+}
+.navbar {
+  --igx-navbar-text-color: var(--ig-gray-700);
+  --igx-navbar-background: white;
+  height: max-content;
+  min-width: min-content;
+}
+.navbar-content {
+  gap: 1rem;
+}
+.icon-button {
+  --igx-button-foreground: white;
+  --igx-button-background: var(--ig-secondary-500);
+}
+.icon-button_1 {
+  --igx-button-foreground: var(--ig-secondary-500);
+}
+.h6 {
+  margin: 0;
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-secondary-500);
+}
+.image {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 0;
+  max-width: 40px;
+  max-height: 40px;
+  flex-shrink: 0;
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+  --igx-avatar-background: transparent;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.icon_1 {
+  color: white;
+}
+.icon_2 {
+  color: var(--ig-secondary-500);
+}
+.text_1 {
+  color: var(--ig-gray-700);
+  margin: 0 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.input {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.input_1 {
+  --ig-size: var(--ig-size-small);
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button {
+  --igx-button-foreground: var(--ig-secondary-500);
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+  flex-shrink: 0;
+}
+.button_1 {
+  --igx-button-foreground: white;
+  --ig-size: var(--ig-size-large);
+  height: max-content;
+  flex-shrink: 0;
+}
+.reveal-dash-board {
+  min-width: 400px;
+  min-height: 200px;
+  flex-grow: 1;
+  flex-basis: 0;
+}

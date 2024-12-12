@@ -1,0 +1,83 @@
+<div class="column-layout group">
+  <igx-navbar class="navbar">
+    <igx-navbar-title class="navbar-content">
+      <h6 class="h6">
+        Dashboard
+      </h6>
+    </igx-navbar-title>
+    <div class="row-layout group_1">
+      <div class="row-layout group_2">
+        <igx-input-group type="box" class="input">
+          <igx-prefix>
+            <igx-icon class="icon">
+              search
+            </igx-icon>
+          </igx-prefix>
+          <input type="text" placeholder="Search for something" igxInput />
+        </igx-input-group>
+        <img src="/assets/Teal_Notifications_Filled.svg" class="image" />
+        <div class="row-layout group_3">
+          <igx-avatar src="/assets/Avatar13.png" shape="circle" class="avatar"></igx-avatar>
+          <div class="column-layout group_1">
+            <p class="ig-typography__body-2 text">
+              Swetha Ravindra
+            </p>
+            <p class="ig-typography__overline text">
+              Area Manager
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </igx-navbar>
+  <div class="column-layout group_4">
+    <div class="column-layout group_5">
+      <div class="column-layout group_1">
+        <h5 class="h5">
+          Hey, Swetha!
+        </h5>
+        <p class="ig-typography__body-2 text_1">
+          Here's a quick look at your site's performance this week and your tasks.
+        </p>
+      </div>
+      <div class="row-layout group_6">
+        <igx-date-picker type="box" mode="dialog" class="date-picker"></igx-date-picker>
+        <div class="row-layout group_7">
+          <p class="ig-typography__body-2 text_1">
+            Customise dashboard
+          </p>
+          <igx-select type="box" class="select">
+            <igx-select-item value="Option">
+              Theme 1
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Theme 2
+            </igx-select-item>
+            <igx-select-item value="Option">
+              Theme 3
+            </igx-select-item>
+            <label igxLabel>Default Style</label>
+          </igx-select>
+        </div>
+      </div>
+    </div>
+    <div class="row-layout group_8">
+      <div class="column-layout group_9">
+        <div class="row-layout group_10">
+          <div class="row-layout group_11">
+            <p class="ig-typography__subtitle-2 text_2">
+              Some Type of Header
+            </p>
+          </div>
+          <button igxButton="contained" type="button" igxRipple class="button">
+            <span>Sample Button</span>
+            <igx-icon class="icon_1">
+              arrow_forward
+            </igx-icon>
+          </button>
+        </div>
+        <rv-reveal-view dashboard="Sales" [options]="dashboardOptions" class="reveal-dash-board"></rv-reveal-view>
+      </div>
+    </div>
+  </div>
+</div>
